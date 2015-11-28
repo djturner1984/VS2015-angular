@@ -1,5 +1,5 @@
 $name = Read-Host 'What is your new project namespace?'
-$nameToReplace = "Domain.Reports"
+$nameToReplace = "Project.Name"
 $wildcardName = "*"+$nameToReplace + "*"
 If ($name -Match " ")
 {
