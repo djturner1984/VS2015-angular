@@ -1,14 +1,16 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Project.Name.Web", "Project.Name.Web\Project.Name.Web.xproj", "{9461B199-1AB0-49C6-9871-D0D7956DF6A4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DF6182D-DB3A-4330-83C3-EDBC46DD8D8E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC77831F-F241-4467-8B3F-13225AC562C7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A9AFADC-8E2B-49D5-8E56-4E590F2B6599}"
 	ProjectSection(SolutionItems) = preProject
-		Project.Name\global.json = Project.Name\global.json
+		global.json = global.json
 	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Project.Name", "src\Project.Name\Project.Name.xproj", "{3520CFDD-0386-4D88-9443-2CC9F551C8E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,12 +18,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9461B199-1AB0-49C6-9871-D0D7956DF6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9461B199-1AB0-49C6-9871-D0D7956DF6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9461B199-1AB0-49C6-9871-D0D7956DF6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9461B199-1AB0-49C6-9871-D0D7956DF6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3520CFDD-0386-4D88-9443-2CC9F551C8E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3520CFDD-0386-4D88-9443-2CC9F551C8E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3520CFDD-0386-4D88-9443-2CC9F551C8E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3520CFDD-0386-4D88-9443-2CC9F551C8E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3520CFDD-0386-4D88-9443-2CC9F551C8E9} = {6DF6182D-DB3A-4330-83C3-EDBC46DD8D8E}
 	EndGlobalSection
 EndGlobal

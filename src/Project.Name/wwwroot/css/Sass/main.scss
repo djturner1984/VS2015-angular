@@ -1,0 +1,11 @@
+$body-background-color: blue;
+$top-margin: 150px;
+
+body {
+    background-color: $body-background-color;
+    padding-bottom:0;
+}
+
+.viewContent {
+    margin-top:$top-margin;
+}
